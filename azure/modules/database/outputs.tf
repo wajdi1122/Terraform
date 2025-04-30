@@ -1,0 +1,15 @@
+output "sql_server_name" {
+  value = azurerm_sql_server.this.name
+}
+
+output "sql_server_id" {
+  value = azurerm_sql_server.this.id
+}
+
+output "sql_database_name" {
+  value = azurerm_sql_database.this.name
+}
+
+output "sql_database_id" {
+  value = azurerm_sql_database.this.id
+}
